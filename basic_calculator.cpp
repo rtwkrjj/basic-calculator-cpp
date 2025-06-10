@@ -1,4 +1,5 @@
 #include <iostream>
+#include<math.h>
 using namespace std;
 
 int main()
@@ -44,6 +45,11 @@ int main()
 	{
 		cout<<num1<<" % "<<num2<<" = "<<num1%num2<<endl;
 		break ;
+	}
+
+		case '^':{
+	     cout<<num1<<" ^ "<<num2<<" = "<<pow(num1,num2)<<endl;
+           break;
 	}
 
 	default : {
